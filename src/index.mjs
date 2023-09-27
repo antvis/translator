@@ -187,5 +187,7 @@ if (options.dir) {
     const translatedAllText = await getTranslatedText(originalTextArr);
     writeValueToAST(mdAST, translatedAllText, textMap);
     await writeToFile(pathName, mdAST, yamlHeader);
+
+    console.log("Translation completed: ", pathName);
   });
 }
