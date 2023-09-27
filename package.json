@@ -1,0 +1,31 @@
+{
+  "name": "@antv/translator",
+  "version": "1.0.0",
+  "description": "An translator for markdown files",
+  "main": "src/index.mjs",
+  "bin": {
+    "translate": "./src/index.mjs"
+  },
+  "keywords": [
+    "cli",
+    "npmtool"
+  ],
+  "author": "xiaoiver",
+  "license": "ISC",
+  "repository": "https://github.com/@antv/translator",
+  "homepage": "https://github.com/@antv/translator",
+  "dependencies": {
+    "@tomsun28/google-translate-api": "1.1.2",
+    "commander": "^11.0.0",
+    "unified": "latest",
+    "remark-parse": "latest",
+    "glob": "latest",
+    "remark-stringify": "latest",
+    "unist-util-visit": "latest",
+    "remark-gfm": "latest"
+  },
+  "devDependencies": {
+    "@types/glob": "latest",
+    "@types/node": "^20.7.0"
+  }
+}
